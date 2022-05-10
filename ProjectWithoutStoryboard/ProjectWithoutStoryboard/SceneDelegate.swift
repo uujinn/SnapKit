@@ -24,7 +24,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         // 윈도우의 크기 설정
         window = UIWindow(frame: UIScreen.main.bounds)
-        
+        window?.overrideUserInterfaceStyle = .light
         // 뷰 컨트롤러 인스턴스 가져오기
         let vc = ViewController()
         
